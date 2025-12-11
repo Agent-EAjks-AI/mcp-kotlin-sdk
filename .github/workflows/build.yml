@@ -44,6 +44,7 @@ jobs:
             --rerun-tasks \
             clean \
             ktlintCheck \
+            knit \
             build \
             -x :conformance-test:test \
             koverLog koverHtmlReport \
